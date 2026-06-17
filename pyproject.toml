@@ -1,7 +1,7 @@
 [project]
-name = "template-agent"
+name = "write_me"
 version = "0.1.0"
-description = "Template for build agent, using langgraph"
+description = "Agents that receive an input and write a text."
 authors = [
     {name = "Rogerio Campos",email = "rogerio.campos07@gmail.com"}
 ]
@@ -52,5 +52,5 @@ pre_format = 'ruff check --fix'
 format = 'ruff format'
 
 pre_test = 'task lint'
-test = 'pytest -s -x --cov=template_agent -vv'
+test = 'pytest -s -x --cov=write_me -vv'
 post_test = 'coverage html'
